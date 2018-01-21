@@ -1,5 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './AppStateful.jsx';
+import App from './AppState.jsx';
 
 ReactDOM.render(<App />, document.getElementById('app'));
