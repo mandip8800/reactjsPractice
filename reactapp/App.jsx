@@ -11,6 +11,8 @@ class App extends React.Component {
             <p>This is the content!!</p>
             <p>This is another content!!</p>
             <p data-myattribute="somevalue">This is my attribute!!</p>
+
+            <h2>{2+2}</h2>
          </div>
       );
    }
