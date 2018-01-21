@@ -2,6 +2,7 @@ import React from 'react';
 
 class App extends React.Component {
    render() {
+      var i = 1;
       return (
          <div>
             Hello World!!! How are you?? How can I help you?<br />
@@ -13,7 +14,12 @@ class App extends React.Component {
             <p data-myattribute="somevalue">This is my attribute!!</p>
 
             <h2>{2+2}</h2>
+
+            <h2>{i==1?'True!' : 'False'}</h2>
          </div>
+         
+             
+          
       );
    }
 }
