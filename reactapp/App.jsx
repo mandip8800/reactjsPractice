@@ -10,6 +10,7 @@ class App extends React.Component {
             <h2>Content</h2>
             <p>This is the content!!</p>
             <p>This is another content!!</p>
+            <p data-myattribute="somevalue">This is my attribute!!</p>
          </div>
       );
    }
