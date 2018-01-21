@@ -23,6 +23,9 @@ class App extends React.Component {
             <h2>{2+2}</h2>
 
             <h2>{i==1?'True!' : 'False'}</h2>
+
+            {//End of the line Comment...}
+            {/*Multi line comment...*/}
          </div>
          
              
