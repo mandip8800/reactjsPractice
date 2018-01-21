@@ -20,12 +20,15 @@ class App extends React.Component {
             <p>This is another content!!</p>
             <p data-myattribute="somevalue">This is my attribute!!</p>
 
-            <h2>{2+2}</h2>
+            
 
             <h2>{i==1?'True!' : 'False'}</h2>
 
-            {//End of the line Comment...}
-            {/*Multi line comment...*/}
+            <h2>{5+6}</h2>
+            
+
+          
+
          </div>
          
              
